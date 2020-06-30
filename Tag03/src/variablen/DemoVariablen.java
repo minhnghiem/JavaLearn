@@ -3,6 +3,6 @@ package variablen;
 public class DemoVariablen {
 
 	 public static void main(String[] arg) {
-		 System.out.println("haha_xd");
+		 System.out.println("haha_giti");
 	 }
 }
