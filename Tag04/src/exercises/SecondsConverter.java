@@ -7,8 +7,8 @@ public class SecondsConverter {
 	 public static void main(String[] arg) {
 		 
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Eingabe: ");
 		int seconds = scanner.nextInt();
-		System.out.println("Eingabe: " + seconds);
 		
 		// Zeitinheit in Sekundeneinheiten
 		int minute = 60;
