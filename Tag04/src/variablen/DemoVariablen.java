@@ -1,11 +1,13 @@
 package variablen;
 
+
 public class DemoVariablen {
 
 	 public static void main(String[] arg) {
 		 
 		 
-		 byte i = 127;
+		 int i = 120;
+		 i += i+5;
 		 
 		 System.out.println(i);
 		 
