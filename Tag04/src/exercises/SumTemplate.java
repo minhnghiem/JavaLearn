@@ -1,6 +1,6 @@
-package variablen;
+package exercises;
 
-public class Sum {
+public class SumTemplate {
 	
 	public static void main(String[] args) {
 		
@@ -12,7 +12,7 @@ public class Sum {
 		// Ganze Zahl, die jeweils an der Reihe ist
 		int counter;
 		// Festlegen der Startwerte der Variablen
-		boundary = 1;
+		boundary = 4;
 		sum = 0;
 		counter = 1;
 		// Berechnen der Summe sum über alle Zahlen von 1 bis boundary

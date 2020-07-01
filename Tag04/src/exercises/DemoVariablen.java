@@ -1,4 +1,4 @@
-package variablen;
+package exercises;
 
 
 public class DemoVariablen {

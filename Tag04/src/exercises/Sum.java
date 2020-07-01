@@ -1,6 +1,6 @@
-package variablen;
+package exercises;
 
-public class Product {
+public class Sum {
 	
 	public static void main(String[] args) {
 		
@@ -8,23 +8,23 @@ public class Product {
 		// Ganze Zahl, bis zu der summiert wird
 		int boundary;
 		// Summe der bisher addierten ganzen Zahlen
-		int product;
+		int sum;
 		// Ganze Zahl, die jeweils an der Reihe ist
 		int counter;
 		// Festlegen der Startwerte der Variablen
-		boundary = 4;
-		product = 1;
+		boundary = 1;
+		sum = 0;
 		counter = 1;
-		// Berechnen des Produktes product über alle Zahlen von 1 bis boundary
+		// Berechnen der Summe sum Ã¼ber alle Zahlen von 1 bis boundary
 		while (counter <= boundary) {
-			product = product * counter;
+			sum = sum + counter;
 			counter = counter + 1;
 		}
-		// Ausgeben des Produktes, gemeinsam mit erläuterndem Text
-		System.out.print("Das Produkt der Zahlen von 1 bis ");
+		// Ausgeben der Summe, gemeinsam mit erlÃ¤uterndem Text
+		System.out.print("Die Summe der Zahlen von 1 bis ");
 		System.out.print(boundary);
 		System.out.print(" ist ");
-		System.out.println(product);
+		System.out.println(sum);
 	
 	}
 	
