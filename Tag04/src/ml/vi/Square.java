@@ -1,4 +1,4 @@
-package exercises;
+package ml.vi;
 
 public class Square {
 

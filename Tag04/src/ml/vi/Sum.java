@@ -1,6 +1,6 @@
-package exercises;
+package ml.vi;
 
-public class SumTemplate {
+public class Sum {
 	
 	public static void main(String[] args) {
 		
@@ -12,7 +12,7 @@ public class SumTemplate {
 		// Ganze Zahl, die jeweils an der Reihe ist
 		int counter;
 		// Festlegen der Startwerte der Variablen
-		boundary = 4;
+		boundary = 1;
 		sum = 0;
 		counter = 1;
 		// Berechnen der Summe sum über alle Zahlen von 1 bis boundary

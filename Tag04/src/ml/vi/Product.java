@@ -1,6 +1,6 @@
-package exercises;
+package ml.vi;
 
-public class SumEven {
+public class Product {
 	
 	public static void main(String[] args) {
 		
@@ -8,23 +8,23 @@ public class SumEven {
 		// Ganze Zahl, bis zu der summiert wird
 		int boundary;
 		// Summe der bisher addierten ganzen Zahlen
-		int sum;
+		int product;
 		// Ganze Zahl, die jeweils an der Reihe ist
 		int counter;
 		// Festlegen der Startwerte der Variablen
-		boundary = 100;
-		sum = 0;
-		counter = 0;
-		// Berechnen der Summe sum über alle geraden Zahlen von 0 bis boundary
+		boundary = 4;
+		product = 1;
+		counter = 1;
+		// Berechnen des Produktes product über alle Zahlen von 1 bis boundary
 		while (counter <= boundary) {
-			sum = sum + counter;
-			counter = counter + 2;
+			product = product * counter;
+			counter = counter + 1;
 		}
-		// Ausgeben der Summe, gemeinsam mit erläuterndem Text
-		System.out.print("Die Summe der Zahlen von 0 bis ");
+		// Ausgeben des Produktes, gemeinsam mit erläuterndem Text
+		System.out.print("Das Produkt der Zahlen von 1 bis ");
 		System.out.print(boundary);
 		System.out.print(" ist ");
-		System.out.println(sum);
+		System.out.println(product);
 	
 	}
 	
