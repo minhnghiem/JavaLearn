@@ -4,9 +4,7 @@ public class BoolenVaules {
 
 	public static void main(String[] args) {
 
-		boolean a;
-		boolean b;
-		boolean boolVariable;
+		boolean a, b, boolVariable;
 		
 		System.out.println("Logische Operatoren:");
 		System.out.println("====================");
