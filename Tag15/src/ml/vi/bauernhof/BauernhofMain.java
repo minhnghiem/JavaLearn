@@ -18,6 +18,9 @@ public class BauernhofMain {
 		System.out.println(refSchwein2.getGewicht());
 		refSchwein2.fressen(refKartoffel);
 		System.out.println(refSchwein2.getGewicht());
+		String gString = "-0.51";
+		double gd = Double.parseDouble(gString.substring(1, gString.length()));
+		System.out.println(gd);
 		
 	}
 }
