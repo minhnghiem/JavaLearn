@@ -24,13 +24,14 @@ public class FahrzeugTest {
 
 			summe += fahrzeuge[i].getPreis();
 
-			if (fahrzeuge[i] instanceof Pkw) {
-				((Pkw) fahrzeuge[i]).print();
-			} else if (fahrzeuge[i] instanceof Motorrad) {
-				((Motorrad) fahrzeuge[i]).print();
-			} else {
-				fahrzeuge[i].print();
-			}
+//			if (fahrzeuge[i] instanceof Pkw) {
+//				((Pkw) fahrzeuge[i]).print();
+//			} else if (fahrzeuge[i] instanceof Motorrad) {
+//				((Motorrad) fahrzeuge[i]).print();
+//			} else {
+//				fahrzeuge[i].print();
+//			}
+			fahrzeuge[i].print();
 
 		}
 		System.out.println("\n\nGesamtwert aller Fahrzeuge: " + summe);
